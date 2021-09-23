@@ -42,7 +42,7 @@ public class ScriptMet : MonoBehaviour
             muerte = muerte - 3;
 
         }
-        if (collision.gameObject.tag == "Bala3")
+        if (collision.gameObject.tag == "bala3")
         {
             Destroy(gameObject);
 

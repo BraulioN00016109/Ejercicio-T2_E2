@@ -40,7 +40,7 @@ public class bala : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Muerte")
+        if (collision.gameObject.tag == "Met")
         {
             Destroy(gameObject);
            

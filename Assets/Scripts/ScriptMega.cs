@@ -59,14 +59,14 @@ public class ScriptMega : MonoBehaviour
 
             CambiarAnimacion(Animacion_Disparar);
 
-            if (estadoBala > 50)
+            if (estadoBala > 150)
             {
 
                 Instantiate(Gbala, BalaTransform.position, Quaternion.identity);
                 estadoBala = 0;
 
             }
-            else if (estadoBala > 30)
+            else if (estadoBala > 90)
             {
 
                 Instantiate(Mbala, BalaTransform.position, Quaternion.identity);
